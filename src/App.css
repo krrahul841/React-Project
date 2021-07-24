@@ -1,0 +1,36 @@
+body{
+  background-color: blueviolet;
+}
+.App{
+  background-color: blue;
+  min-height: 500px;
+  width: 400px;
+  margin: 50px auto;
+  
+}
+#todo-list input{
+  background-color: rgb(33, 68, 88);
+  color: white;
+  width: 230px;
+  height: 40px;
+  margin: 20px;
+  padding: 0 20px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+}
+#todo-list input::placeholder{
+  color: white;
+}
+
+#todo-list button{
+  height: 40px;
+  width: 70px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: -10px;
+  font-weight: bold;
+  cursor: pointer;
+ 
+}
